@@ -1,11 +1,17 @@
 import React from 'react';
-import Hooks from './Hooks';
+import './App.css'
+import Sidebar from './react-project/Sidebar';
+import Navbar from './react-project/Navbar';
+import Body from './react-project/Body';
 class App extends React.Component {
-
   render() {
     return (
-      <div>
-        <Hooks/>
+      <div className="App">
+        <Sidebar/>
+        <div className="Nav-body">
+        <Navbar/>
+        <Body/>
+        </div>
       </div>
     );
   }
