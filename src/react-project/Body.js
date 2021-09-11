@@ -1,7 +1,5 @@
 import React from 'react';
-import {Bod,Top, Kv, Kvx, BodyTitle, Kvb, Icons, Icon, Title, Text1, Button} from './Body-style'
-// import Kl from './img/vector.png'
-// import Ko from './img/vector2.png'
+import {Bod,Top, Kv, Kvx, BodyTitle, Kvb, Icons, Title, Button} from './Body-style'
 import ong from './img/Vector 636.png'
 import chap from './img/Vector 637.png'
 import Car from './img/Car.png'
