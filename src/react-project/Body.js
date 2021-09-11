@@ -1,10 +1,10 @@
 import React from 'react';
-import {Bod,Top, Kv, Kvx, BodyTitle, Kvb, Icons, Icon, Title, Text1} from './Body-style'
+import {Bod,Top, Kv, Kvx, BodyTitle, Kvb, Icons, Icon, Title, Text1, Button} from './Body-style'
 // import Kl from './img/vector.png'
 // import Ko from './img/vector2.png'
 import ong from './img/Vector 636.png'
 import chap from './img/Vector 637.png'
-import cat from './img/cat icon.png'
+import Car from './img/Car.png'
 class Body extends React.Component {
     render() {
         return (
@@ -53,20 +53,21 @@ class Body extends React.Component {
                      <img src={chap}/>
                    </Kvb>
                     <Icons>
-                       <Icon>
-                           <img src={cat}/> 
-                           <Text1>Championships</Text1>
-                       </Icon>
-                       <Icon>
-                           <img src={cat}/> 
-                           <Text1>Championships</Text1>
-                       </Icon>
-                       <Icon>
-                           <img src={cat}/> 
-                           <Text1>Championships</Text1>
-                       </Icon>
+                    <Kv>
+                         <Kvx>
+                           Contact
+                         </Kvx>
+                     </Kv>
+                       <Kv>
+                         <Kvx>
+                           About
+                         </Kvx>
+                     </Kv>
                     </Icons>
                  </BodyTitle>
+                 <Button>
+                    <img src={Car} />
+                 </Button>
                 </Bod>
             </div>
         );

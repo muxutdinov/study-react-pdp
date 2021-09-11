@@ -80,5 +80,12 @@ font-weight: normal;
 font-size: 17.0164px;
 line-height: 22px;
 color: gray;
-/* margin-right: 100px; */
+`
+export const Button = styled.div`
+height: 40%;
+width: 100%;
+img{
+    height: 100%;
+    width: 100%;
+}
 `
